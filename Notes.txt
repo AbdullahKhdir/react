@@ -1,0 +1,7 @@
+-State-Adjustments:
+P.s: Where the state is managed, does not make the component
+     necessarily a container, in order to pass it to all other
+     components.
+     The State can be managed though in the app component instead
+     and then forward the state to all other components using
+     context feature.

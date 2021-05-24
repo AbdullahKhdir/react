@@ -1,0 +1,53 @@
+.FixedDiv{
+  position: fixed;
+  top: 80%;
+  left:80%;
+  background-color: #cc9b6d;
+  border: 1px solid #f2dac3;
+  box-shadow: 1px 1px 1px #40A4C8;
+  padding: 16px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  word-wrap: break-word;
+}
+
+@media (min-width: 500px) {
+    .FixedDiv {
+      top: 80%;
+      left:50%;
+    }
+    .Notify{
+      font-size: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .FixedDiv {
+      top: 80%;
+      left:80%;
+    }
+    .Notify{
+      font-size: 1rem;
+    }
+}
+
+@media (min-width: 600px) {
+    .FixedDiv {
+      top: 80%;
+      left:80%;
+    }
+    .Notify{
+      font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    .FixedDiv {
+      top: 80%;
+      left:80%;
+    }
+    .Notify{
+      font-size: 1rem;
+    }
+}

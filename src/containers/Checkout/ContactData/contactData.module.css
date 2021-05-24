@@ -1,0 +1,52 @@
+.Contactdata{
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 5px #ccc;
+  border: 1px solid #eee;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.Str{
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 75.9%;
+  display: inline-block;
+  font: inherit;
+  padding: 6px 10px;
+  box-sizing: border-box;
+}
+
+.Nr{
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: inline-block;
+  width: 20%;
+  font: inherit;
+  padding: 6px 10px;
+  box-sizing: border-box;
+}
+
+.Str:focus{
+  outline: none;
+  background-color: #ccc;
+}
+
+.Nr:focus{
+  outline: none;
+  background-color: #ccc;
+}
+
+.Lineup{
+  margin: 20px auto;
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .Contactdata{
+    width: 500px;
+  }
+}
